@@ -11,13 +11,14 @@ def print_company_responses(company_name, q1, q2, q3, q4, q5, q6, q7, q8, q9, q1
     if q2[index] == "Security":
         print("Q2: Microsoft Defender for Cloud helps you prevent, detect, and respond to threats with increased visibility into and control over the security of your Azure resources. Microsoft Sentinel delivers intelligent security analytics and threat intelligence. Azure Advisor is a personalized cloud consultant that helps you to optimize your Azure deployments. Learn more here: https://learn.microsoft.com/en-us/azure/security/fundamentals/overview#overview")
     elif q2[index] == "Data migration":
-        print("Q2: Azure Database Migration Service is a fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime. The Azure SQL Migration extension for Azure Data Studio brings together a simplified assessment, recommendation, and migration experience. Learn more here: https://learn.microsoft.com/en-us/azure/dms/dms-overview")
+        print("Q2: Azure Database Migration Service is a fully managed service designed to enable seamless migrations from multiple ")
+        print("database sources to Azure data platforms with minimal downtime. The Azure SQL Migration extension for Azure Data Studio brings together a simplified assessment, recommendation, and migration experience. Learn more here: https://learn.microsoft.com/en-us/azure/dms/dms-overview")
     elif q2[index] == "Storage":
         print("Q2: Azure provides secure and scallable storage solution. There are many different storage types to schoose fro which all have different benefits. Learn more here: https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction")
     elif q2[index] == "Workplace modernisation":
         print("Q2: Microsoft 365 provides a wide array of applications to streamline your business. Applications such as Word, PowerPoint and excel can be used for processing documents and doing presentations. Teams and Outlook help provide messaging systems between your organisation. Learn more here: https://support.microsoft.com/en-us/office/microsoft-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb")
     elif q2[index] == "App development":
-        print("Q2: We are experienced in App development and would be happy to help")
+        print("Q2: Avanade is experienced in making web applications and can develop one for you. To learn about the services we use to complete this visit: https://azure.microsoft.com/en-us/resources/developers ")
     else:
         print(f"Q2: Unknown response: {q2[index]}")
 
